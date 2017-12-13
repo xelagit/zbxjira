@@ -1,0 +1,6 @@
+jira==1.0.10
+zabbix-api
+pyyaml
+sys
+os
+argparse
