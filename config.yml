@@ -80,15 +80,15 @@ campos_form:
 #  departamento:"'customfield_12103' : ['587']"        
 #  secretaria: "'customfield_12102' : ['159']"         
 #  #cargo: 'customfield_12600' : ['Estagiário'],        
-#  email: "'customfield_12213' : ['lista.monit@tjms.jus.br']"
-#  telefone: "'customfield_11402' : '1913'"                  
+#  email: "'customfield_12213' : ['xxxxxxxxxxxxxxxxxxxxxxxxxxxx']"
+#  telefone: "'customfield_11402' : 'xxxx'"                  
 # tab_usuario:
 #  solicitante:  "'customfield_15907' : {'name':'zabbix'}"
 #  departamento: "'customfield_12802' : ['587']"
 #  secretaria: 'customfield_12803' : ['159']"  
 #  #cargo:"'customfield_12804' : ['Estagiário']",
-#  email: "'customfield_12805' : ['lista.monit@tjms.jus.br']"  
-#  telefone: "'customfield_12806' : '1913'" 
+#  email: "'customfield_12805' : ['xxxxxxxxxxxxxxxxxx']"  
+#  telefone: "'customfield_12806' : 'xxxx'" 
 # tab_incidente:
 #   resumo:"'summary'"      
 #   descricao: "'description'"
