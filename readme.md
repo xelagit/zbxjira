@@ -41,7 +41,6 @@ Nos campos seguintes insira o conteúdo exatamente como segue:
 		Problema - ID Alerta {TRIGGER.ID}: {TRIGGER.NAME}
 *  Mensagem padrão: 
 		ID do evento: {EVENT.ID}
-
 		Verificar procedencia do alerta:
 		"{TRIGGER.NAME}"
 		host: {HOST.HOST}
@@ -53,7 +52,6 @@ Nos campos seguintes insira o conteúdo exatamente como segue:
 		OK - ID de Alerta {TRIGGER.ID}: {TRIGGER.NAME}
 *  Mensagem de recuperação:
 		ID do evento: {EVENT.ID}
-
 		O evento de alerta/trigger :
 		"{TRIGGER.NAME}"
 		foi encerrado. O ticket relacionado pode ter sido resolvido pela equipe responsavel. 
