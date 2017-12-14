@@ -73,7 +73,7 @@ sua necessidade:
 * C Severidade da Trigger = (Desastre ou Atenção ....)
 * ou outras condições.....
 
-Na aba "Ações" em "Enviar para usuários", por padrão, escolha o usuário "zabbixapi".
+Na aba "Ações" em "Enviar para usuários", por padrão escolha o usuário "zabbixapi".
 Obs: É indiferente o usuário, apenas tenha certeza que o usuário possua em seus cadastro 
 a mídia de usuário zabbix-jira.
 
