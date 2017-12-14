@@ -37,8 +37,7 @@ Crie uma ação e nos campos abaixo insira:
 *  Tipo: Script
 
 Nos campos seguintes insira o conteúdo exatamente como segue:
-*  Assunto padrão: 
-		Problema - ID Alerta {TRIGGER.ID}: {TRIGGER.NAME}
+*  Assunto padrão: Problema - ID Alerta {TRIGGER.ID}: {TRIGGER.NAME}
 *  Mensagem padrão: 
 		ID do evento: {EVENT.ID}
 		Verificar procedencia do alerta:
@@ -48,8 +47,7 @@ Nos campos seguintes insira o conteúdo exatamente como segue:
 		Data/Hora: {EVENT.DATE} | {EVENT.TIME}selecionado
 
 *  Mensagem de recuperação:Selecione
-*  Assunto de recuperação: 
-		OK - ID de Alerta {TRIGGER.ID}: {TRIGGER.NAME}
+*  Assunto de recuperação: OK - ID de Alerta {TRIGGER.ID}: {TRIGGER.NAME}
 *  Mensagem de recuperação:
 		ID do evento: {EVENT.ID}
 		O evento de alerta/trigger :
