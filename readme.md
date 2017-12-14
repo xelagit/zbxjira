@@ -33,7 +33,7 @@ Crie uma mídia de usuário e nos campos abaixo insira:
 *  Nome: zbxjira/zbxjira.sh
 
 Crie uma ação e nos campos abaixo insira:
-*  Nome: <Defina um nome>
+*  Nome: Defina um nome
 *  Tipo: Script
 
 Nos campos seguintes insira o conteúdo exatamente como segue:
