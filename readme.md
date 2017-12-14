@@ -86,9 +86,9 @@ a chave PRODUCAO: False
 Sintaxe dos parametros de linha de comando
 com o shell script:
 
-zbxjira.sh <to> <subject> <body> 
-zbxjira.sh "" "Problema - Nome da Trigger" "ID do evento: 1234564879"
-zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
+	zbxjira.sh <to> <subject> <body> 
+	zbxjira.sh "" "Problema - Nome da Trigger" "ID do evento: 1234564879"
+	zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
  
 Obs: Esse script efetua  parses do assunto e da mensagem para extrair a
 a ação a tomar e o ID do evento.
