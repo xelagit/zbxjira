@@ -12,27 +12,24 @@ PRODUCAO: True
 ############################### ZABBIX #################################
 zabbix:
  API: True  
- server: https://www.tjms.jus.br/zabbix
- user: 'zabbixapi'
- passw: 'z@bb1xX'
- server_teste: https://www.tjms.jus.br/zabbix
- user_teste: 'zabbixapi'
- passw_teste: 'z@bb1xX'
+ server: xxxxxxxxxxxxxxx
+ user: 'xxxxxxxxxxxxxxx'
+ passw: 'xxxxxxxxxxxxxxx'
+ server_teste: xxxxxxxxxxxxxxx
+ user_teste: 'xxxxxxxxxxxxxxx'
+ passw_teste: 'xxxxxxxxxxxxxxx'
  loglevel: 0
 
 #################### ATTLASSIAN JIRA E CONFLUENCE ######################
-
+xxxxxxxxxxxxxxx
 jira:
  API: True
- #JIRA_APLICAR_SOLUCAO: 81
- JIRA_SITUACAO: Unresolved
- #JIRA_CANCELAR_TICKET: Cancelar  
- server: http://sti.tjms.jus.br/jira
+ server: xxxxxxxxxxxxxxx
  user: xxxxxxx
  passw: xxxxxx
- server_teste: https://teste.sti.tjms.jus.br/jira
- user_teste: zabbix
- passw_teste: z@bb1xX
+ server_teste: xxxxxxxxxxxxxxx
+ user_teste: xxxxxxxxxxxxxxx
+ passw_teste: xxxxxxxxxxxxxxx
 
  servico:  
   monitoramento: 39
@@ -104,10 +101,10 @@ campos_form:
 
 
 confluence:  
- server: https://sti.tjms.jus.br/confluence
+ server: xxxxxxxxxxxxxxx
  user: xxxxxxx
  passw: xxxxxxx
- server_teste: https://teste.sti.tjms.jus.br/confluence
+ server_teste: xxxxxxxxxxxxxxx
  user_teste: xxxxxxx
  passw_teste: xxxxxxx
 
@@ -124,12 +121,12 @@ pdde:
 telegram: 
  token:  xxxxxxxxxxxxxxxxxxx
  destino: 
-   monitoramento:  147861121
-   grp_alerta_sti:  -137102428
-   dit-luciano:  152536788
-   dit-josuel:  125001103
-   dsj:  162540868
-   dsa:  152548916 
+   monitoramento:  xxxxxxxxxxxxxxx
+   grp_alerta_sti:  xxxxxxxxxxxxxxx
+   dit-luciano:  xxxxxxxxxxxxxxx
+   dit-josuel:  xxxxxxxxxxxxxxx
+   dsj:  xxxxxxxxxxxxxxx
+   dsa:  xxxxxxxxxxxxxxx
 
 ########### ID dos grupos de responsabilidade no Zabbix #################
 
