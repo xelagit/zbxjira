@@ -4,7 +4,7 @@ Cria Tickets no JIRA dentro do projeto SD(Service Desk) de acordo com eventos de
 reconhecendo-os no Zabbix e comentando-os no JIRA caso o alerta da trigger seja reparado  
 
 Esta solução foi baseado dos scripts do repositório https://github.com/Movile/zabbix2jira
-e adaptada para nossa ambiente.
+e adaptada para nosso ambiente.
 
 ## Pre-requisitos
 
