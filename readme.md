@@ -86,19 +86,19 @@ a chave PRODUCAO: False
 Sintaxe dos parametros de linha de comando
 com o shell script:
 
- zbxjira.sh <to> <subject> <body> 
- zbxjira.sh "" "Problema - Nome da Trigger" "ID do evento: 1234564879"
- zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
+zbxjira.sh <to> <subject> <body> 
+zbxjira.sh "" "Problema - Nome da Trigger" "ID do evento: 1234564879"
+zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
  
- Obs: Esse script efetua  parses do assunto e da mensagem para extrair a
- a ação a tomar e o ID do evento.
+Obs: Esse script efetua  parses do assunto e da mensagem para extrair a
+a ação a tomar e o ID do evento.
  
 
 Sintaxe dos parametros de linha de comando
 com o python script:
 
- zbxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
- zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" PROBLEMA "Alerta tal" "Verificar Alerta" 
- zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" OK "Evento de Alerta tal" "Verificar Alerta" 
+zbxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
+zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" PROBLEMA "Alerta tal" "Verificar Alerta" 
+zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" OK "Evento de Alerta tal" "Verificar Alerta" 
 
 
