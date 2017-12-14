@@ -97,8 +97,8 @@ a ação a tomar e o ID do evento.
 Sintaxe dos parametros de linha de comando
 com o python script:
 
-zbxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
-zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" PROBLEMA "Alerta tal" "Verificar Alerta" 
-zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" OK "Evento de Alerta tal" "Verificar Alerta" 
+	zbxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
+	zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" PROBLEMA "Alerta tal" "Verificar Alerta" 
+	zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" OK "Evento de Alerta tal" "Verificar Alerta" 
 
 
