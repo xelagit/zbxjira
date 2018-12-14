@@ -87,9 +87,7 @@ testes conferem.
 
 	O script Shell efetua parses do assunto e da mensagem para extrair a
 	ação a ser tomada e o ID do evento, por esse motivo os parametros SUBJECT 
-	e BODY devem seguir formato do exemplo abaixo.  
-
-	Utilize um ID de evento válido.
+	e BODY devem seguir formato do exemplo abaixo. Utilize um ID de evento válido.
 
 Sintaxe dos parametros de linha de comando
 com o shell script:
