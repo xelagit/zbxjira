@@ -82,8 +82,13 @@ de mídia de usuário a mídia "zabbix-jira".
 Exemplos de teste na linha de comando
 ------------------------------------
 Para utilizar os scripts em modo de teste altere no config.yml
-a chave PRODUCAO: False
+a chave PRODUCAO: False e confirme se os endereços dos servidores
+testes conferem.
 
+Obs: O script Shell efetua parses do assunto e da mensagem para extrair a
+ação a ser tomada e o ID do evento, por esse motivo o <subject> 
+e <body> devem seguir formato do exemplo abaixo.  
+Dica importante: Utilize um ID de evento válido.
 
 Sintaxe dos parametros de linha de comando
 com o shell script:
@@ -91,10 +96,7 @@ com o shell script:
 	zbxjira.sh <to> <subject> <body> 
 	zbxjira.sh "" "Problema - Nome da Trigger" "ID do evento: 1234564879"
 	zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
- 
- Obs: Esse script efetua  parses do assunto e da mensagem para extrair a
- ação a ser tomada e o ID do evento.
- 
+  
 
 Sintaxe dos parametros de linha de comando
 com o python script:
