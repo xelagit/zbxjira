@@ -77,7 +77,7 @@ sua necessidade:
 
 Na aba "Ações" em "Enviar para usuários", por padrão, escolha o usuário "zabbixapi".
 Obs: É indiferente o usuário, apenas tenha certeza que o usuário possua em seus cadastro 
-a mídia de usuário zabbix-jira.
+de mídia de usuário a mídia "zabbix-jira".
 
 Exemplos de teste na linha de comando
 ------------------------------------
@@ -93,13 +93,13 @@ com o shell script:
 	zbxjira.sh "" "OK - Nome da Trigger" "ID do evento: 123456789" 
  
  Obs: Esse script efetua  parses do assunto e da mensagem para extrair a
- a ação a tomar e o ID do evento.
+ ação a ser tomada e o ID do evento.
  
 
 Sintaxe dos parametros de linha de comando
 com o python script:
 
-	bxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
+	zbxjira.py -i <EVENTO_ID> -c <CONFIG> -o <LOG> <ACAO[PROBLEMA|OK]> <RESUMO> <MENSAGEM> 
 	zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" PROBLEMA "Alerta tal" "Verificar Alerta" 
 	zbxjira.py -i  123456789 -c "/caminho/config.yml/"  -o "zbxjira/log/zbxjira.log" OK "Evento de Alerta tal" "Verificar Alerta" 
 
