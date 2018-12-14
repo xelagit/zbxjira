@@ -15,7 +15,7 @@ pip install -r meus_requirements.txt
 Caminhos padrões:
 
 - Arquivo de configuração: /usr/lib/zabbix/config.yml
-  Obs: o arquivo de configuração é utilizado por outros
+  O arquivo de configuração é utilizado por outros
   scripts. Por tal motivo recomendamos não alterar o seu caminho.
     
 - Log: /usr/lib/zabbix/alertscripts/zbxjira/log/zbxjira.log
