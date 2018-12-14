@@ -85,12 +85,10 @@ Para utilizar os scripts em modo de teste altere no config.yml
 a chave PRODUCAO: False e confirme se os endereços dos servidores
 testes conferem.
 
-Obs: 
 	O script Shell efetua parses do assunto e da mensagem para extrair a
 	ação a ser tomada e o ID do evento, por esse motivo os parametros SUBJECT 
 	e BODY devem seguir formato do exemplo abaixo.  
 
-Dica importante: 
 	Utilize um ID de evento válido.
 
 Sintaxe dos parametros de linha de comando
